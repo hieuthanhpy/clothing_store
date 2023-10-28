@@ -2,3 +2,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.swiper-pagination-bullet{
+    width: 12px !important;
+    height: 12px !important;
+    position: relative;
+    bottom: 30px;
+    background-color: #713f12 !important;
+}
+
+.swiper-pagination-bullet-active{
+    position: relative;
+    bottom: 28px;
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+    color: white !important;
+    border-radius: 50%;
+    background-color: #713f12;
+    height: 40px !important;
+    width: 40px !important;
+    bottom: 10px !important;
+    position: absolute;
+    top: 650px !important;
+}
+
+.swiper-button-next{
+    
+    /* right: 250px !important; */
+}
+.swiper-button-prev{
+    /* left: 250px !important; */
+    
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after{
+    font-size: 20px !important;
+}
+/* .swiper-button-prev{
+color:white !important;
+} */
