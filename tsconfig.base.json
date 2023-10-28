@@ -17,6 +17,10 @@
     "paths": {
       "auth": ["modules/auth/src/index.ts"],
       "common-ui": ["common-ui/src/index.ts"],
+      "location": ["modules/location/src/index.ts"],
+      "obscreen": ["modules/obscreen/src/index.ts"],
+      "onboardingscreen": ["modules/src/index.ts"],
+      "screen": ["modules/screen/src/index.ts"],
       "splash": ["modules/splash/src/index.ts"],
       "welcome": ["modules/welcome/src/index.ts"]
     }
