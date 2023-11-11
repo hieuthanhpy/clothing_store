@@ -38,7 +38,7 @@ export function Welcome() {
           </Link>
           <div className="text-center mt-4 text-sm">
             Already have an account? &nbsp;
-            <a href="/signin" className="underline font-medium text-yellow-900 dark:text-yellow-900">Sign In</a>
+            <a href="/sign_in" className="underline font-medium text-yellow-900 dark:text-yellow-900">Sign In</a>
           </div>
           <p className="bottom-28 text-zinc-200 left-32 text-3xl absolute ">Insightlancer</p>
           <div className="border-yellow-900 border-2 border-solid rounded-full z-10 absolute w-40 h-40 top-40 -right-20">

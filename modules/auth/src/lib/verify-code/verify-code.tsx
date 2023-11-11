@@ -10,7 +10,7 @@ export function VerifyCode(props: VerifyCodeProps) {
 
         <div className="overflow-hidden  bg-slate-50 w-80 h-full relative ">
           <p className="mt-8 mb-8 text-zinc-200 left-6 text-3xl absolute font-sans">Insightlancer</p>
-          <Link to="/signin">
+          <Link to="/sign_in">
             <button className="mt-20 ml-4 inline-block text-2xl relative border-yellow-900 border-2 bg-slate-50 py-2 px-3 rounded-full h-12 w-12">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" className="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
@@ -36,7 +36,7 @@ export function VerifyCode(props: VerifyCodeProps) {
               </div>
               <div className="text-center">
                 <p className=" text-yellow-900 dark:text-yellow-900 text-xs relative">Didn't receive OTP?</p>
-                <a href="#" className="underline font-medium text-yellow-900 dark:text-yellow-900 text-xs relative ">Resend code</a>
+                <a href="/verify_code" className="underline font-medium text-yellow-900 dark:text-yellow-900 text-xs relative ">Resend code</a>
               </div>
               <div className="flex items-center justify-center mt-4">
                   <button className=" bg-yellow-900 hover:bg-yellow-700 text-white py-2 px-4 rounded-full h-12 w-72">
@@ -49,6 +49,18 @@ export function VerifyCode(props: VerifyCodeProps) {
             <Link to="/location">
               <button>
               Go to location
+              </button>
+            </Link>
+            <br></br>
+            <Link to="/new_password">
+              <button>
+              Go to new password
+              </button>
+            </Link>
+            <br></br>
+            <Link to="/complete_your_profile">
+              <button>
+              Go to complete your profile
               </button>
             </Link>
           </div>

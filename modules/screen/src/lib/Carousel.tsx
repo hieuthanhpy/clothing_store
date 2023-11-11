@@ -28,7 +28,7 @@ export default function Carousel() {
       >
         <SwiperSlide>
             <div className="overflow-hidden  bg-slate-50 w-80 h-full relative ">
-              <a href="/Signin" className=" absolute text-yellow-900 top-4 left-64  font-medium">skip</a>
+              <a href="/sign_in" className=" absolute text-yellow-900 top-4 left-64  font-medium">skip</a>
               <p className="inline-block mt-4 text-zinc-200 left-6 text-3xl relative font-sans">Insightlancer</p>
               
               <img className="z-10 relative h-96 w-80 top-2" src="src\assets\images\onboarding-screen-1.png" alt="image description"></img>
@@ -48,7 +48,7 @@ export default function Carousel() {
         </SwiperSlide>
         <SwiperSlide>
             <div className="overflow-hidden  bg-slate-50 w-80 h-full relative ">
-              <a href="/Signin" className=" absolute text-yellow-900 top-4 left-64  font-medium">skip</a>
+              <a href="/sign_in" className=" absolute text-yellow-900 top-4 left-64  font-medium">skip</a>
               <p className="inline-block mt-4 text-zinc-200 left-6 text-3xl relative font-sans">Insightlancer</p>
               
               <img className="z-10 relative h-96 w-80 top-2" src="src\assets\images\onboarding-screen-2.png" alt="image description"></img>
@@ -69,7 +69,7 @@ export default function Carousel() {
         </SwiperSlide>
         <SwiperSlide>
             <div className="overflow-hidden  bg-slate-50 w-80 h-full relative ">
-              <a href="/Signin" className=" absolute text-yellow-900 top-4 left-64  font-medium">skip</a>
+              <a href="/sign_in" className=" absolute text-yellow-900 top-4 left-64  font-medium">skip</a>
               <p className="inline-block mt-4 text-zinc-200 left-6 text-3xl relative font-sans">Insightlancer</p>
               
               <img className="z-10 relative h-96 w-80 top-2" src="src\assets\images\onboarding-screen-3.png" alt="image description"></img>
